@@ -1,0 +1,28 @@
+35. Button and JavaScript 57
+
+<body>
+    <button class="btn" onclick="myjs()"><strong>Click Me</strong></button>
+    <script>
+        function myjs(){
+            alert("You Have Clicked Me!")
+        }
+    </script>
+</body>
+==========
+.btn{
+    width: 100px;
+    height: 35px;
+    
+    border: 5px solid blue;
+    border-radius: 15px;
+    background-color: aqua;
+    padding: 5px;
+    transition: all 2s ease;
+}
+
+.btn:hover{
+    background-color: blue;
+    border: 5px solid aqua;
+    color: white;
+    cursor: pointer;
+}
